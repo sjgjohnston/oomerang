@@ -20,6 +20,9 @@
   src: local('Cherry Swash Bold'), local('CherrySwash-Bold'), url(http://themes.googleusercontent.com/static/fonts/cherryswash/v1/-CfyMyQqfucZPQNB0nvYyBAPw1J91axKNXP_-QX9CC8.woff) format('woff');
 }
 
+a, a:hover {
+  color: #8000b7;
+}
 
 /* ----------- Navbar styles ----------- */
 
@@ -89,7 +92,7 @@
   width: 49%;
 }
 
-.btn-filter {
+.btn {
   margin: 10px 0;
 }
 
@@ -128,8 +131,6 @@ html, body, #map-canvas {
   height: 35px;
   width: 100%;
 }
-
-
 
 #lostItemForm {
   width: 200px;
