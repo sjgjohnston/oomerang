@@ -8,4 +8,6 @@ Oomerang::Application.routes.draw do
   post "/items/found" => "items#found"
   post "/items/lost" => "items#lost"
 
+  get "/mailertest" => "users#mailertest"
+
 end
