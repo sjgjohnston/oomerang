@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
   def new
   end
 
@@ -19,6 +20,7 @@ class UsersController < ApplicationController
 
   def show
   end
+
 
   def mailertest
 
